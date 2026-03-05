@@ -6,4 +6,4 @@ SELECT
 FROM orders LEFT JOIN orderdetails
     ON orders.orderid = orderdetails.orderid
 GROUP BY country
-ORDER BY revenue DESC;
+ORDER BY total_sales DESC, revenue DESC;
