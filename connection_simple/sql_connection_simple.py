@@ -1,4 +1,4 @@
-"""Module for running SQL queries against a database using _____."""
+"""Module for running SQL queries against a database."""
 import configparser as cp
 from pathlib import Path
 
